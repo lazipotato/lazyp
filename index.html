@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "shortcut icon" type = "x-icon" href = "./png-clipart-material-circle-beige-circle-material-beige-thumbnail.png">
     <title>hy</title>
     <link
         rel = "stylesheet"
@@ -11,23 +12,33 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Danfo&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 </head>
 <body>
     <header>
         <a href = "#" class = "logo">hy</a>
         <nav class = "navbar">
-            <a href = "#top">home</a>
+            <a href = "./index.html">home</a>
             <a href = "#">art</a>
             <a href = "#">dev</a>
             <a href = "#aboutme">about</a>
-            <a href = "#contactme">contact me</a>
+            <a href = "./contactme.html">contact me</a>
         </nav>
     </header>
     <h1 class = "danfo-text" style = "margin-top: 60px;">hannah</h1>
-    <h1 class = "danfo-text" style = "margin-bottom: 60px;">ying</h1>
+    <h1 class = "danfo-text" style = "margin-bottom: 30px;">ying</h1>
+
+    <div class = "container">
+        <h2>i am<span class = "element"></span></h2>
+    </div>
+    <script>
+        var typed = new Typed('.element', {
+            strings: ["a web developer.", "a competitive programmer." , "an artist.", "a food enthusiast."], typeSpeed: 70, backSpeed: 70, loop: true
+        })
+    </script>
     <a href = "./aboutme.html" id = "aboutme">about me</a>
     <br>
-    <a href = "./contactme.html" id = "contactme">contact me</a>
+    <a href = "./contactme.html">contact me</a>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate mauris in laoreet tristique. Mauris commodo fringilla ornare. Morbi pellentesque lectus eget aliquam egestas. Quisque lorem risus, auctor in lorem sit amet, suscipit hendrerit felis. Aenean non tellus sit amet libero ultrices placerat. Aenean aliquet sollicitudin ex, sed venenatis sem pharetra eu. Aliquam nec euismod urna, ut posuere ex. Phasellus interdum est et faucibus porta. Quisque ullamcorper est quis lobortis facilisis. Donec ac odio lorem.</p>
 
     <p>Vestibulum ac tortor egestas, pharetra magna vitae, viverra turpis. Cras mauris orci, feugiat ut fermentum vitae, pellentesque vitae erat. Sed at interdum felis. Praesent at orci id sapien vehicula vestibulum non congue turpis. Integer varius varius porta. Vestibulum consectetur velit eu arcu ultrices, at dictum velit porttitor. Aenean auctor nisi eget nisl condimentum vehicula. Nunc dignissim erat dui.</p> 
